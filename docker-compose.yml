@@ -2,9 +2,9 @@ version: "2"
 services:
 
   uwsgi:
-    build: ./app
+    build: ./uwsgi
     volumes:
-      - ./app:/var/www/
+      - ./uwsgi:/var/www/
     ports:
       - "3031:3031"
     environment:
@@ -20,3 +20,13 @@ services:
       - "5000:80"
     environment:
       TZ: "Asia/Tokyo"
+
+  mysql:
+    build: ./mysql/
+    volumes:
+      - ./mysql/mysql_data:/var/lib/mysql # データの永続化
+      - ./mysql/sqls:/docker-entrypoint-initdb.d # 初期化時に実行するSQL
+    environment:
+      - MYSQL_ROOT_PASSWORD=mysql_pass
+    ports:
+      - "3306:3306"

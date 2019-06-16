@@ -1,0 +1,15 @@
+Flask
+uwsgi
+sqlalchemy
+flask-restful
+flask-sqlalchemy
+flask-login
+sqlalchemy_utils
+flask-migrate
+pymysql
+flask_marshmallow
+marshmallow-sqlalchemy
+alembic
+python-dotenv
+requests
+flask_script
