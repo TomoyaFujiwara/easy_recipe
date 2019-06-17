@@ -2,25 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a72d5d-d0f0-4745-8bd5-3c0018873b43" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysql/Dockerfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysql/mysql.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysql/sqls/init.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi/run.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Dockerfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/requirements.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/config/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/config/default.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/run.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/server/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/server/hoge/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/server/hoge/hoge_api.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/tests/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/tests/test_hoge.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/uwsgi.ini" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi/app/resources/user.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/mysql_data/ib_logfile0" afterPath="$PROJECT_DIR$/mysql/mysql_data/ib_logfile0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/mysql_data/ibdata1" afterPath="$PROJECT_DIR$/mysql/mysql_data/ibdata1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/mysql_data/ibtmp1" afterPath="$PROJECT_DIR$/mysql/mysql_data/ibtmp1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/mysql_data/recipe/ingredient.ibd" afterPath="$PROJECT_DIR$/mysql/mysql_data/recipe/ingredient.ibd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/mysql_data/recipe/procedure.ibd" afterPath="$PROJECT_DIR$/mysql/mysql_data/recipe/procedure.ibd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/mysql_data/recipe/recipe.ibd" afterPath="$PROJECT_DIR$/mysql/mysql_data/recipe/recipe.ibd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/mysql_data/ib_buffer_pool" afterPath="$PROJECT_DIR$/mysql/mysql_data/ib_buffer_pool" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uwsgi/app/resources/recipe.py" afterPath="$PROJECT_DIR$/uwsgi/app/resources/recipe.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uwsgi/app/serializers.py" afterPath="$PROJECT_DIR$/uwsgi/app/serializers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uwsgi/run.py" afterPath="$PROJECT_DIR$/uwsgi/run.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uwsgi/tests/test.py" afterPath="$PROJECT_DIR$/uwsgi/tests/test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,7 +27,7 @@
     <SUITE FILE_PATH="coverage/easy_recipe$easy_recipe.coverage" NAME="easy_recipe Coverage Results" MODIFIED="1560250297084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5718492">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
@@ -48,29 +42,59 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/uwsgi/tests/test.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+                <state relative-caret-position="15">
+                  <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
                   <folding>
-                    <element signature="e#43#58#0" expanded="true" />
+                    <element signature="e#42#57#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="init.sql" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mysql/sqls/init.sql">
+          <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/nginx/Dockerfile">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+          <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="nginx.conf" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/nginx/nginx.conf">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="555">
+                  <caret line="37" column="16" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="16" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="uwsgi.ini" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/uwsgi/uwsgi.ini">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mysql/Dockerfile">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="75">
@@ -80,21 +104,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="mysql.conf" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mysql/mysql.conf">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/uwsgi/app/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="25" column="80" lean-forward="true" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
+                <state relative-caret-position="255">
+                  <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
                   <folding>
                     <element signature="e#0#29#0" expanded="true" />
                   </folding>
@@ -102,13 +116,25 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/uwsgi/app/__init__.py">
+          <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/uwsgi/run.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                <state relative-caret-position="120">
+                  <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
                   <folding>
-                    <element signature="e#0#9#0" expanded="true" />
+                    <element signature="e#0#24#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="recipe.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/uwsgi/app/resources/recipe.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="690">
+                  <caret line="46" column="55" lean-forward="true" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+                  <folding>
+                    <element signature="e#0#11#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -130,14 +156,34 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="recipe.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/uwsgi/app/resources/recipe.py">
+          <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/uwsgi/Dockerfile">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="286">
-                  <caret line="37" column="40" lean-forward="false" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+                <state relative-caret-position="225">
+                  <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="58" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="user.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/uwsgi/app/resources/user.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="315">
+                  <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="42" />
                   <folding>
                     <element signature="e#0#11#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/uwsgi/app/serializers.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -177,8 +223,9 @@
       <find>pymysql</find>
       <find>src</find>
       <find>db =</find>
-      <find>None</find>
       <find>init</find>
+      <find>None</find>
+      <find>location</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app</dir>
@@ -191,8 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/a.py" />
-        <option value="$PROJECT_DIR$/templates/model.py" />
         <option value="$PROJECT_DIR$/database.py" />
         <option value="$PROJECT_DIR$/easy_recipe.py" />
         <option value="$PROJECT_DIR$/model.py" />
@@ -232,15 +277,17 @@
         <option value="$PROJECT_DIR$/uwsgi/src/resources/recipe.py" />
         <option value="$PROJECT_DIR$/uwsgi/app/__init__.py" />
         <option value="$PROJECT_DIR$/uwsgi/uwsgi.ini" />
-        <option value="$PROJECT_DIR$/uwsgi/run.py" />
         <option value="$PROJECT_DIR$/uwsgi/Dockerfile" />
         <option value="$PROJECT_DIR$/uwsgi/app/config/config.py" />
         <option value="$PROJECT_DIR$/uwsgi/requirements.txt" />
         <option value="$PROJECT_DIR$/uwsgi/migrations/versions/469aab17e345_.py" />
         <option value="$PROJECT_DIR$/uwsgi/manage.py" />
         <option value="$PROJECT_DIR$/mysql/sqls/init.sql" />
-        <option value="$PROJECT_DIR$/uwsgi/tests/test.py" />
         <option value="$PROJECT_DIR$/uwsgi/app/models.py" />
+        <option value="$PROJECT_DIR$/uwsgi/app/serializers.py" />
+        <option value="$PROJECT_DIR$/uwsgi/run.py" />
+        <option value="$PROJECT_DIR$/uwsgi/app/resources/user.py" />
+        <option value="$PROJECT_DIR$/uwsgi/tests/test.py" />
         <option value="$PROJECT_DIR$/uwsgi/app/resources/recipe.py" />
       </list>
     </option>
@@ -254,7 +301,7 @@
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="-255" />
     <option name="y" value="-1080" />
-    <option name="width" value="954" />
+    <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -287,44 +334,7 @@
             <path>
               <item name="easy_recipe" type="b2602c69:ProjectViewProjectNode" />
               <item name="easy_recipe" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easy_recipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easy_recipe" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
-              <item name="sqls" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easy_recipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easy_recipe" type="462c0819:PsiDirectoryNode" />
-              <item name="uwsgi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easy_recipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easy_recipe" type="462c0819:PsiDirectoryNode" />
-              <item name="uwsgi" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easy_recipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easy_recipe" type="462c0819:PsiDirectoryNode" />
-              <item name="uwsgi" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easy_recipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easy_recipe" type="462c0819:PsiDirectoryNode" />
-              <item name="uwsgi" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easy_recipe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easy_recipe" type="462c0819:PsiDirectoryNode" />
-              <item name="uwsgi" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="nginx" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -444,16 +454,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/migrations/env.py" />
-    <entry file="file://$PROJECT_DIR$/app/src/migrations/script.py.mako" />
-    <entry file="file://$PROJECT_DIR$/app/src/server/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/app/uwsgi.ini" />
-    <entry file="file://$PROJECT_DIR$/app/Dockerfile" />
     <entry file="file://$PROJECT_DIR$/app/src/__init__.py" />
     <entry file="file://$PROJECT_DIR$/app/src/server/models/model.py" />
     <entry file="file://$PROJECT_DIR$/app/src/migrations/memo" />
@@ -471,14 +476,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uwsgi/src/app.py" />
-    <entry file="file://$PROJECT_DIR$/uwsgi/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uwsgi/src/server/apis/api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -607,14 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uwsgi/migrations/README">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -623,47 +612,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uwsgi/uwsgi.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uwsgi/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uwsgi/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uwsgi/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uwsgi/app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -715,10 +668,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/uwsgi/app/config/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="375">
+          <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/app/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -733,20 +696,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uwsgi/app/config/config.py">
+    <entry file="file://$PROJECT_DIR$/uwsgi/tests/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/app/resources/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uwsgi/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="80" lean-forward="true" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
+        <state relative-caret-position="255">
+          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -755,21 +762,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uwsgi/tests/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="15">
+          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
           <folding>
-            <element signature="e#43#58#0" expanded="true" />
+            <element signature="e#42#57#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/uwsgi.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="16" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uwsgi/app/resources/recipe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="37" column="40" lean-forward="false" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+        <state relative-caret-position="690">
+          <caret line="46" column="55" lean-forward="true" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
