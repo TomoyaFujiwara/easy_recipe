@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <ul>
-      <recipe v-for="item in recipe_list"></recipe>
-    </ul>
+    <div id="recipe_list" v-for="item in recipe_list">
+      <recipe :item="item"></recipe>
+    </div>
   </div>
 </template>
 
@@ -10,8 +10,8 @@
 import axios from 'axios';
 import Recipe from './components/Recipe.vue';
 
-var URL_BASE = 'http://127.0.0.1:5000';
-var url = '/api/v1/users/test_id';
+let URL_BASE = 'http://127.0.0.1:5000';
+let url = '/api/v1/users/test_id';
 
 export default {
   name: 'App',
@@ -26,7 +26,8 @@ export default {
   async created() {
     try {
       let res = await axios.get(URL_BASE + url)
-      this.search_list = res.data
+      console.log(res.data)
+      this.recipe_list = res.data
     } catch (e) {
       console.error(e)
     }
