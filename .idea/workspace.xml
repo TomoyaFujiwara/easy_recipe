@@ -2,11 +2,297 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a72d5d-d0f0-4745-8bd5-3c0018873b43" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/easy_recipe.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/easy_recipe.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi/vue/Dockerfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uwsgi/vue/src/components/Recipe.vue" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/columns_priv.MYD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/columns_priv.MYI" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/columns_priv.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/db.MYD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/db.MYI" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/db.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/db.opt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/engine_cost.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/engine_cost.ibd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/event.MYD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/event.MYI" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/event.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/func.MYD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/func.MYI" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/func.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/general_log.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/gtid_executed.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/gtid_executed.ibd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/help_category.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/help_category.ibd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/help_keyword.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/help_keyword.ibd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/help_relation.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/help_relation.ibd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/help_topic.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/help_topic.ibd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/innodb_index_stats.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/innodb_index_stats.ibd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/innodb_table_stats.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/innodb_table_stats.ibd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/ndb_binlog_index.MYD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/ndb_binlog_index.MYI" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/ndb_binlog_index.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/plugin.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/plugin.ibd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/proc.MYD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/proc.MYI" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/proc.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/procs_priv.MYD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/procs_priv.MYI" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/procs_priv.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/proxies_priv.MYD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/proxies_priv.MYI" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/proxies_priv.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/server_cost.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/server_cost.ibd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/servers.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/servers.ibd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/slave_master_info.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/slave_master_info.ibd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/slave_relay_log_info.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/slave_relay_log_info.ibd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/slave_worker_info.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/slave_worker_info.ibd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/slow_log.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/tables_priv.MYD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/tables_priv.MYI" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/tables_priv.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/time_zone.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/time_zone.ibd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/time_zone_leap_second.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/time_zone_leap_second.ibd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/time_zone_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/time_zone_name.ibd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/time_zone_transition.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/time_zone_transition.ibd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/time_zone_transition_type.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/time_zone_transition_type.ibd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/user.MYD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/user.MYI" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/mysql/user.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/accounts.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/cond_instances.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/db.opt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_stages_current.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_stages_history.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_stages_history_long.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_stages_summary_by_account_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_stages_summary_by_host_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_stages_summary_by_thread_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_stages_summary_by_user_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_stages_summary_global_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_statements_current.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_statements_history.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_statements_history_long.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_statements_summary_by_account_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_statements_summary_by_digest.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_statements_summary_by_host_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_statements_summary_by_program.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_statements_summary_by_thread_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_statements_summary_by_user_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_statements_summary_global_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_transactions_current.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_transactions_history.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_transactions_history_long.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_transactions_summary_by_account_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_transactions_summary_by_host_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_transactions_summary_by_thread_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_transactions_summary_by_user_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_transactions_summary_global_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_waits_current.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_waits_history.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_waits_history_long.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_waits_summary_by_account_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_waits_summary_by_host_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_waits_summary_by_instance.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_waits_summary_by_thread_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_waits_summary_by_user_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/events_waits_summary_global_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/file_instances.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/file_summary_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/file_summary_by_instance.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/global_status.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/global_variables.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/host_cache.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/hosts.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/memory_summary_by_account_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/memory_summary_by_host_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/memory_summary_by_thread_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/memory_summary_by_user_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/memory_summary_global_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/metadata_locks.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/mutex_instances.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/objects_summary_global_by_type.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/performance_timers.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/prepared_statements_instances.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/replication_applier_configuration.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/replication_applier_status.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/replication_applier_status_by_coordinator.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/replication_applier_status_by_worker.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/replication_connection_configuration.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/replication_connection_status.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/replication_group_member_stats.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/replication_group_members.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/rwlock_instances.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/session_account_connect_attrs.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/session_connect_attrs.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/session_status.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/session_variables.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/setup_actors.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/setup_consumers.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/setup_instruments.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/setup_objects.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/setup_timers.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/socket_instances.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/socket_summary_by_event_name.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/socket_summary_by_instance.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/status_by_account.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/status_by_host.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/status_by_thread.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/status_by_user.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/table_handles.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/table_io_waits_summary_by_index_usage.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/table_io_waits_summary_by_table.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/table_lock_waits_summary_by_table.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/threads.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/user_variables_by_thread.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/users.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/performance_schema/variables_by_thread.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/recipe/alembic_version.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/recipe/db.opt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/recipe/ingredient.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/recipe/procedure.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/recipe/recipe.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/db.opt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/host_summary.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/host_summary_by_file_io.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/host_summary_by_file_io_type.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/host_summary_by_stages.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/host_summary_by_statement_latency.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/host_summary_by_statement_type.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/innodb_buffer_stats_by_schema.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/innodb_buffer_stats_by_table.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/innodb_lock_waits.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/io_by_thread_by_latency.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/io_global_by_file_by_bytes.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/io_global_by_file_by_latency.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/io_global_by_wait_by_bytes.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/io_global_by_wait_by_latency.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/latest_file_io.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/memory_by_host_by_current_bytes.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/memory_by_thread_by_current_bytes.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/memory_by_user_by_current_bytes.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/memory_global_by_current_bytes.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/memory_global_total.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/metrics.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/processlist.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/ps_check_lost_instrumentation.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/schema_auto_increment_columns.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/schema_index_statistics.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/schema_object_overview.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/schema_redundant_indexes.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/schema_table_lock_waits.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/schema_table_statistics.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/schema_table_statistics_with_buffer.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/schema_tables_with_full_table_scans.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/schema_unused_indexes.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/session.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/session_ssl_status.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/statement_analysis.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/statements_with_errors_or_warnings.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/statements_with_full_table_scans.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/statements_with_runtimes_in_95th_percentile.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/statements_with_sorting.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/statements_with_temp_tables.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/sys_config.TRG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/sys_config.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/sys_config_insert_set_user.TRN" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/sys_config_update_set_user.TRN" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/user_summary.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/user_summary_by_file_io.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/user_summary_by_file_io_type.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/user_summary_by_stages.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/user_summary_by_statement_latency.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/user_summary_by_statement_type.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/version.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/wait_classes_global_by_avg_latency.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/wait_classes_global_by_latency.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/waits_by_host_by_latency.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/waits_by_user_by_latency.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/waits_global_by_latency.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024host_summary.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024host_summary_by_file_io.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024host_summary_by_file_io_type.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024host_summary_by_stages.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024host_summary_by_statement_latency.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024host_summary_by_statement_type.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024innodb_buffer_stats_by_schema.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024innodb_buffer_stats_by_table.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024innodb_lock_waits.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024io_by_thread_by_latency.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024io_global_by_file_by_bytes.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024io_global_by_file_by_latency.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024io_global_by_wait_by_bytes.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024io_global_by_wait_by_latency.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024latest_file_io.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024memory_by_host_by_current_bytes.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024memory_by_thread_by_current_bytes.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024memory_by_user_by_current_bytes.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024memory_global_by_current_bytes.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024memory_global_total.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024processlist.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024ps_digest_95th_percentile_by_avg_us.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024ps_digest_avg_latency_distribution.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024ps_schema_table_statistics_io.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024schema_flattened_keys.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024schema_index_statistics.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024schema_table_lock_waits.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024schema_table_statistics.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024schema_table_statistics_with_buffer.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024schema_tables_with_full_table_scans.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024session.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024statement_analysis.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024statements_with_errors_or_warnings.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024statements_with_full_table_scans.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024statements_with_runtimes_in_95th_percentile.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024statements_with_sorting.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024statements_with_temp_tables.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024user_summary.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024user_summary_by_file_io.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024user_summary_by_file_io_type.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024user_summary_by_stages.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024user_summary_by_statement_latency.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024user_summary_by_statement_type.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024wait_classes_global_by_avg_latency.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024wait_classes_global_by_latency.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024waits_by_host_by_latency.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024waits_by_user_by_latency.frm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/x@0024waits_global_by_latency.frm" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/mysql_data/ib_logfile0" afterPath="$PROJECT_DIR$/mysql/mysql_data/ib_logfile0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/mysql_data/ibdata1" afterPath="$PROJECT_DIR$/mysql/mysql_data/ibdata1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/mysql_data/ibtmp1" afterPath="$PROJECT_DIR$/mysql/mysql_data/ibtmp1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/mysql_data/recipe/alembic_version.ibd" afterPath="$PROJECT_DIR$/mysql/mysql_data/recipe/alembic_version.ibd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/mysql_data/recipe/ingredient.ibd" afterPath="$PROJECT_DIR$/mysql/mysql_data/recipe/ingredient.ibd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/mysql_data/recipe/procedure.ibd" afterPath="$PROJECT_DIR$/mysql/mysql_data/recipe/procedure.ibd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/mysql_data/recipe/recipe.ibd" afterPath="$PROJECT_DIR$/mysql/mysql_data/recipe/recipe.ibd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/mysql_data/sys/sys_config.ibd" afterPath="$PROJECT_DIR$/mysql/mysql_data/sys/sys_config.ibd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/mysql_data/ib_buffer_pool" afterPath="$PROJECT_DIR$/mysql/mysql_data/ib_buffer_pool" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nginx/nginx.conf" afterPath="$PROJECT_DIR$/nginx/nginx.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uwsgi/Dockerfile" afterPath="$PROJECT_DIR$/uwsgi/Dockerfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uwsgi/app/__init__.py" afterPath="$PROJECT_DIR$/uwsgi/app/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uwsgi/run.py" afterPath="$PROJECT_DIR$/uwsgi/run.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,21 +318,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
+          <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/docker-compose.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/uwsgi/app/config/config.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+                <state relative-caret-position="300">
+                  <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
@@ -56,17 +332,17 @@
             <entry file="file://$PROJECT_DIR$/Makefile">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="105">
-                  <caret line="7" column="63" lean-forward="false" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+                  <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="nginx.conf" pinned="false" current-in-tab="false">
+          <file leaf-file-name="nginx.conf" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/nginx/nginx.conf">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="675">
-                  <caret line="45" column="29" lean-forward="false" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+                <state relative-caret-position="690">
+                  <caret line="46" column="9" lean-forward="false" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
@@ -76,46 +352,91 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/uwsgi/manage.py">
+          <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/uwsgi/run.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+                <state relative-caret-position="225">
+                  <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+                  <folding>
+                    <element signature="e#0#24#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="About.vue" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/uwsgi/vue/src/components/About.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="11" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="HelloWorld.vue" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/uwsgi/vue/src/components/HelloWorld.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-948">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/uwsgi/vue/src/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                    <element signature="e#140#161#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="App.vue" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/uwsgi/vue/src/App.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+                  <folding>
+                    <element signature="e#130#156#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mysql/Dockerfile">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Recipe.vue" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/uwsgi/vue/src/components/Recipe.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/uwsgi/app/__init__.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
                   <folding>
                     <element signature="e#0#9#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/uwsgi/Dockerfile">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="user.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/uwsgi/app/resources/user.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="42" />
-                  <folding>
-                    <element signature="e#0#11#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/uwsgi/app/serializers.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -158,6 +479,8 @@
       <find>init</find>
       <find>None</find>
       <find>location</find>
+      <find>dist</find>
+      <find>main.</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app</dir>
@@ -170,15 +493,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database.py" />
-        <option value="$PROJECT_DIR$/easy_recipe.py" />
-        <option value="$PROJECT_DIR$/model.py" />
-        <option value="$PROJECT_DIR$/mysql/Dockerfile" />
-        <option value="$PROJECT_DIR$/mysql/mysql.conf" />
-        <option value="$PROJECT_DIR$/Makefile" />
-        <option value="$PROJECT_DIR$/app/requirements.txt" />
-        <option value="$PROJECT_DIR$/app/src/server/hoge/hoge_api.py" />
-        <option value="$PROJECT_DIR$/app/src/server/api/__init__.py" />
         <option value="$PROJECT_DIR$/app/src/server/database.py" />
         <option value="$PROJECT_DIR$/app/src/models/model.py" />
         <option value="$PROJECT_DIR$/app/src/__init__.py" />
@@ -194,7 +508,6 @@
         <option value="$PROJECT_DIR$/app/src/migrations/memo" />
         <option value="$PROJECT_DIR$/app/src/server/apis/__init__.py" />
         <option value="$PROJECT_DIR$/app/src/app.py" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/uwsgi/src/resources/auth.py" />
         <option value="$PROJECT_DIR$/uwsgi/src/resources/students.py" />
         <option value="$PROJECT_DIR$/uwsgi/src/resources/subjects.py" />
@@ -207,9 +520,7 @@
         <option value="$PROJECT_DIR$/uwsgi/src/__init__.py" />
         <option value="$PROJECT_DIR$/uwsgi/src/resources/__init__.py" />
         <option value="$PROJECT_DIR$/uwsgi/src/resources/recipe.py" />
-        <option value="$PROJECT_DIR$/uwsgi/app/__init__.py" />
         <option value="$PROJECT_DIR$/uwsgi/uwsgi.ini" />
-        <option value="$PROJECT_DIR$/uwsgi/Dockerfile" />
         <option value="$PROJECT_DIR$/uwsgi/app/config/config.py" />
         <option value="$PROJECT_DIR$/uwsgi/requirements.txt" />
         <option value="$PROJECT_DIR$/uwsgi/migrations/versions/469aab17e345_.py" />
@@ -217,10 +528,22 @@
         <option value="$PROJECT_DIR$/mysql/sqls/init.sql" />
         <option value="$PROJECT_DIR$/uwsgi/app/models.py" />
         <option value="$PROJECT_DIR$/uwsgi/app/serializers.py" />
-        <option value="$PROJECT_DIR$/uwsgi/run.py" />
         <option value="$PROJECT_DIR$/uwsgi/app/resources/user.py" />
         <option value="$PROJECT_DIR$/uwsgi/tests/test.py" />
         <option value="$PROJECT_DIR$/uwsgi/app/resources/recipe.py" />
+        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/vue/app/package.json" />
+        <option value="$PROJECT_DIR$/vue/app/src/components/Home.vue" />
+        <option value="$PROJECT_DIR$/vue/app/src/components/About.vue" />
+        <option value="$PROJECT_DIR$/vue/app/dist/index.html" />
+        <option value="$PROJECT_DIR$/vue/Dockerfile" />
+        <option value="$PROJECT_DIR$/uwsgi/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/uwsgi/app/__init__.py" />
+        <option value="$PROJECT_DIR$/uwsgi/run.py" />
+        <option value="$PROJECT_DIR$/nginx/nginx.conf" />
+        <option value="$PROJECT_DIR$/uwsgi/vue/src/components/Recipe.vue" />
+        <option value="$PROJECT_DIR$/uwsgi/vue/src/App.vue" />
       </list>
     </option>
   </component>
@@ -230,11 +553,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/uwsgi/vue/node_modules" />
+    <handled-path value="$PROJECT_DIR$/vue/app/node_modules" />
+  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-255" />
-    <option name="y" value="-1080" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -254,6 +579,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,18 +590,61 @@
             <path>
               <item name="easy_recipe" type="b2602c69:ProjectViewProjectNode" />
               <item name="easy_recipe" type="462c0819:PsiDirectoryNode" />
-              <item name="nginx" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy_recipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easy_recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="sqls" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="easy_recipe" type="b2602c69:ProjectViewProjectNode" />
               <item name="easy_recipe" type="462c0819:PsiDirectoryNode" />
               <item name="uwsgi" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="easy_recipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easy_recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="uwsgi" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy_recipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easy_recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="uwsgi" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy_recipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easy_recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="uwsgi" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy_recipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easy_recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="uwsgi" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy_recipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easy_recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easy_recipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easy_recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -285,11 +654,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/uwsgi/app/vue" />
       <recent name="$PROJECT_DIR$/uwsgi" />
       <recent name="$PROJECT_DIR$/app/src" />
       <recent name="$PROJECT_DIR$/app/src/server" />
       <recent name="$PROJECT_DIR$/app/src/models" />
-      <recent name="$PROJECT_DIR$/mysql/sqls" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -338,39 +707,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-255" y="-1080" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14749734" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19170243" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39903265" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.095846646" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39903265" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -379,18 +737,18 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.095846646" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13018598" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39903265" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39903265" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -407,60 +765,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/app/src/server/models/model.py" />
-    <entry file="file://$PROJECT_DIR$/app/src/migrations/memo" />
-    <entry file="file://$PROJECT_DIR$/app/src/config/default.py" />
-    <entry file="file://$PROJECT_DIR$/app/src/app.py" />
-    <entry file="file://$PROJECT_DIR$/app/src/server/database.py" />
-    <entry file="file://$PROJECT_DIR$/app/src/server/apis/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/app/src/server/apis/api.py" />
-    <entry file="file://$PROJECT_DIR$/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="63" lean-forward="false" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uwsgi/src/app.py" />
-    <entry file="file://$PROJECT_DIR$/uwsgi/src/server/apis/api.py" />
-    <entry file="file://$PROJECT_DIR$/uwsgi/src/server/apis/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/uwsgi/src/config/default.py" />
-    <entry file="file://$PROJECT_DIR$/uwsgi/src/serializers.py" />
-    <entry file="file://$PROJECT_DIR$/uwsgi/src/resources/teachers.py" />
-    <entry file="file://$PROJECT_DIR$/uwsgi/src/resources/subjects.py" />
-    <entry file="file://$PROJECT_DIR$/uwsgi/src/config/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/uwsgi/src/resources/auth.py" />
-    <entry file="file://$PROJECT_DIR$/uwsgi/src/resources/students.py" />
-    <entry file="file://$PROJECT_DIR$/uwsgi/src/resources/ingredients.py" />
-    <entry file="file://$PROJECT_DIR$/uwsgi/src/views.py" />
-    <entry file="file://$PROJECT_DIR$/uwsgi/src/config/config.py" />
-    <entry file="file://$PROJECT_DIR$/uwsgi/src/models.py" />
-    <entry file="file://$PROJECT_DIR$/uwsgi/src/resources/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/uwsgi/src/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/uwsgi/src/resources/recipe.py" />
-    <entry file="file://$PROJECT_DIR$/uwsgi/migrations/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uwsgi/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uwsgi/migrations/env.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-188">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uwsgi/migrations/script.py.mako">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -476,13 +780,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/uwsgi/migrations/versions/469aab17e345_.py" />
-    <entry file="file://$PROJECT_DIR$/mysql/sqls/init.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysql/mysql.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -490,29 +787,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uwsgi/app/config/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uwsgi/app/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uwsgi/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -520,45 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uwsgi/app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uwsgi/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uwsgi/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uwsgi/app/resources/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uwsgi/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -576,7 +815,166 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/uwsgi.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/src/package.json" />
+    <entry file="file://$PROJECT_DIR$/vue/app/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/app/resources/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/app/src/components/About.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/app/src/components/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/app/dist/index.html" />
+    <entry file="file://$PROJECT_DIR$/vue/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/app/vue/app/package.json" />
+    <entry file="file://$PROJECT_DIR$/uwsgi/app/vue/app/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/uwsgi/app/vue/Dockerfile" />
+    <entry file="file://$PROJECT_DIR$/uwsgi/app/vue/README.md" />
+    <entry file="file://$PROJECT_DIR$/uwsgi/app/vue/index.html" />
+    <entry file="file://$PROJECT_DIR$/uwsgi/app/vue/build/build.js" />
+    <entry file="file://$PROJECT_DIR$/uwsgi/app/vue/config/prod.env.js" />
+    <entry file="file://$PROJECT_DIR$/uwsgi/app/vue/config/dev.env.js" />
+    <entry file="file://$PROJECT_DIR$/uwsgi/app/config/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/app/vue/package.json" />
+    <entry file="file://$PROJECT_DIR$/uwsgi/app/resources/recipe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="46" column="55" lean-forward="true" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/app/resources/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nginx/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/vue/build/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/vue/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-348">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/vue/build/webpack.base.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/vue/src/components/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -586,31 +984,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="300">
+          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uwsgi/uwsgi.ini">
+    <entry file="file://$PROJECT_DIR$/uwsgi/vue/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nginx/nginx.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="29" lean-forward="false" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+        <state relative-caret-position="690">
+          <caret line="46" column="9" lean-forward="false" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uwsgi/app/resources/recipe.py">
+    <entry file="file://$PROJECT_DIR$/uwsgi/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="55" lean-forward="true" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+        <state relative-caret-position="270">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/vue/src/components/Recipe.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysql/sqls/init.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -618,6 +1046,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/vue/src/components/About.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/vue/src/components/HelloWorld.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-948">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/vue/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#140#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi/vue/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#130#156#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

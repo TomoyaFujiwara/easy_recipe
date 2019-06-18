@@ -1,16 +1,30 @@
+FROM node:8.15.0-alpine as builder
+
+RUN mkdir vue
+COPY ./vue ./vue
+WORKDIR ./vue
+
+RUN apk update && \
+    npm install && \
+    npm install -g npm && \
+    npm install -g @vue/cli
+
+RUN npm run build
+
+#CMD ["npm", "run", "build"]
+
+
 # ベースイメージ
 FROM python:3.6
-
 RUN mkdir /var/www
-# workdirの指定
 WORKDIR /var/www
 
 # 依存Pythonライブラリ一覧コピー
-COPY requirements.txt ./
+COPY ./ ./
+# Copy bundled js
+COPY --from=builder /vue/dist ./app/dist/
 
 # 依存Pythonライブラリインストール
 RUN pip install --no-cache-dir -r requirements.txt
-
-WORKDIR /var/www
 
 CMD ["uwsgi","--ini","/var/www/uwsgi.ini", "--honour-stdin"]

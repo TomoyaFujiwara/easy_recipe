@@ -1,20 +1,30 @@
 version: "2"
 services:
 
+
+#  vue:
+#    build: ./vue
+#    volumes:
+#      - ./vue/app:/app
+#    tty: true
+#    command: npm run build
+
   uwsgi:
     build: ./uwsgi
-    volumes:
-      - ./uwsgi:/var/www/
+#    volumes:
+#      - ./uwsgi:/var/www/
     ports:
       - "3031:3031"
     environment:
       TZ: "Asia/Tokyo"
+#    depends_on:
+#      - vue
 
   nginx:
     build: ./nginx
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf
-    links:
+    depends_on:
       - uwsgi
     ports:
       - "5000:80"
