@@ -13,3 +13,4 @@ alembic
 python-dotenv
 requests
 flask_script
+flask_cors

@@ -4,6 +4,7 @@ from flask import Flask
 from flask_login import LoginManager
 from flask_restful import Api
 from flask_sqlalchemy import SQLAlchemy
+from flask_cors import CORS
 
 from app.config.config import app_config
 
@@ -25,3 +26,4 @@ def create_app(configuration):
 
 app = create_app(os.getenv('ENVIRONMENT', 'development'))
 api = Api(app=app, prefix="/api/v1")
+cors = CORS(app, resources={r"/api/*": {"origins": "*"}})

@@ -17,7 +17,7 @@ class RecipesAPI(Resource):
 
     def get(self):
         recipes = Recipe.query.all()
-        response = {}
+        response = []
         for recipe in recipes:
             ingredients = [{"ingredient_id": ingredient.ingredient_id,
                             "recipe_id": ingredient.recipe_id,
@@ -29,18 +29,16 @@ class RecipesAPI(Resource):
                            "name": procedure.name}
                            for procedure in Procedure.query.filter(
                                             Procedure.recipe_id==recipe.recipe_id).all()]
-
-            response["recipe_{}".format(recipe.recipe_id)] \
-                = {"user_id": recipe.user_id,
-                   "name": recipe.name,
-                   "site_url": recipe.site_url,
-                   "image_url": recipe.image_url,
-                   "created_at": recipe.created_at,
-                   "updated_at": recipe.updated_at,
-                   "ingredients": ingredients,
-                   "procedures": procedures}
-
-        return json.dumps(response, default=datetime_serial), 200
+            response.append({"recipe_id": recipe.recipe_id,
+                             "user_id": recipe.user_id,
+                             "name": recipe.name,
+                             "site_url": recipe.site_url,
+                             "image_url": recipe.image_url,
+                             "created_at": recipe.created_at,
+                             "updated_at": recipe.updated_at,
+                             "ingredients": ingredients,
+                             "procedures": procedures})
+        return json.dumps({'results': response}, default=datetime_serial), 200
 
     def post(self):
         # if request contains only site_url, get information from site_url.
@@ -96,7 +94,7 @@ class RecipeAPI(Resource):
         if recipe is None:
             return {"error": "There is not such recipe. Please request by a correct id."}
 
-        response = {}
+        response = []
         ingredients = [{"ingredient_id": ingredient.ingredient_id,
                         "recipe_id": ingredient.recipe_id,
                         "name": ingredient.name}
@@ -108,18 +106,17 @@ class RecipeAPI(Resource):
                       for procedure in Procedure.query.filter(
                 Procedure.recipe_id == recipe.recipe_id).all()]
 
-        response["recipe_{}".format(recipe.recipe_id)] \
-            = {"user_id": recipe.user_id,
-               "name": recipe.name,
-               "site_url": recipe.site_url,
-               "image_url": recipe.image_url,
-               "created_at": recipe.created_at,
-               "updated_at": recipe.updated_at,
-               "ingredients": ingredients,
-               "procedures": procedures}
+        response.append({"recipe_id": recipe.recipe_id,
+                         "user_id": recipe.user_id,
+                         "name": recipe.name,
+                         "site_url": recipe.site_url,
+                         "image_url": recipe.image_url,
+                         "created_at": recipe.created_at,
+                         "updated_at": recipe.updated_at,
+                         "ingredients": ingredients,
+                         "procedures": procedures})
 
-        print(response)
-        return json.dumps(response, default=datetime_serial), 200
+        return json.dumps({'results': response}, default=datetime_serial), 200
 
     def put(self, id):
         data = json.loads(request.data.decode('utf-8'))

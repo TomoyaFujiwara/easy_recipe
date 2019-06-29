@@ -17,7 +17,7 @@ class UserAPI(Resource):
         if recipes is None:
             return {"error": "There is not such recipe. Please request by a correct id."}
 
-        response = {}
+        response = []
         for recipe in recipes:
             ingredients = [{"ingredient_id": ingredient.ingredient_id,
                             "recipe_id": ingredient.recipe_id,
@@ -30,15 +30,14 @@ class UserAPI(Resource):
                            for procedure in Procedure.query.filter(
                                             Procedure.recipe_id==recipe.recipe_id).all()]
 
-            response["recipe_{}".format(recipe.recipe_id)] \
-                = {"user_id": recipe.user_id,
-                   "name": recipe.name,
-                   "site_url": recipe.site_url,
-                   "image_url": recipe.image_url,
-                   "created_at": recipe.created_at,
-                   "updated_at": recipe.updated_at,
-                   "ingredients": ingredients,
-                   "procedures": procedures}
-
+            response.append({"recipe_id": recipe.recipe_id,
+                             "user_id": recipe.user_id,
+                             "name": recipe.name,
+                             "site_url": recipe.site_url,
+                             "image_url": recipe.image_url,
+                             "created_at": recipe.created_at,
+                             "updated_at": recipe.updated_at,
+                             "ingredients": ingredients,
+                             "procedures": procedures})
         print(response)
-        return json.dumps(response, default=datetime_serial), 200
+        return json.dumps({'results': response}, default=datetime_serial), 200
