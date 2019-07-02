@@ -6,10 +6,9 @@ WORKDIR ./vue
 
 RUN apk update && \
     npm install && \
-    npm install -g npm && \
-    npm install -g @vue/cli
+    npm install -g npm
 
-RUN npm run build
+RUN npm run buil
 
 #CMD ["npm", "run", "build"]
 
